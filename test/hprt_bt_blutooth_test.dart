@@ -10,6 +10,54 @@ class MockHprtBtBlutoothPlatform
 
   @override
   Future<String?> getPlatformVersion() => Future.value('42');
+  
+  @override
+  Future getPrintSN() {
+    // TODO: implement getPrintSN
+    throw UnimplementedError();
+  }
+  
+  @override
+  Future portOpenBT(String address) {
+    // TODO: implement portOpenBT
+    throw UnimplementedError();
+  }
+  
+  @override
+  Future print() {
+    // TODO: implement print
+    throw UnimplementedError();
+  }
+  
+  @override
+  Future printAreaSize(String offset, String horizontal, String vertical, String height, String qty) {
+    // TODO: implement printAreaSize
+    throw UnimplementedError();
+  }
+  
+  @override
+  Future printBitmapCPCL(String base64, int x, int y, int type, int compressType, int light) {
+    // TODO: implement printBitmapCPCL
+    throw UnimplementedError();
+  }
+  
+  @override
+  Future printQR(String command, String x, String y, String m, String u, String data) {
+    // TODO: implement printQR
+    throw UnimplementedError();
+  }
+  
+  @override
+  Future text(String font, String size, String x, String y, String data) {
+    // TODO: implement text
+    throw UnimplementedError();
+  }
+  
+  @override
+  Future portClose() {
+    // TODO: implement portClose
+    throw UnimplementedError();
+  }
 }
 
 void main() {
